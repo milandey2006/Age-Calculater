@@ -13,7 +13,7 @@ const ageCalculate = () => {
   // Calculating Date
   const year = currentDate.getFullYear() - input_date.getFullYear();
   const month = currentDate.getMonth() - input_date.getMonth();
-  const day = currentDate.getDay() - input_date.getDay();
+  const day = currentDate.getDate() - input_date.getDate();
 
 
   if (currentDate.getMonth() < input_date.getMonth() ||
